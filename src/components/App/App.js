@@ -7,7 +7,7 @@ import Container from '../Container/Container';
 import { addHousesToStore } from '../../actions';
 import { getHouseData } from '../../apiCalls';
 
-class App extends Component {
+export class App extends Component {
 
   componentDidMount = async () => {
     const houses = await getHouseData();
@@ -65,9 +65,9 @@ App.propTypes = {
   addHousesToStore: func
 };
 
-const mapStateToProps = ({ houses }) => ({ houses });
+export const mapStateToProps = ({ houses }) => ({ houses });
 
-const mapDispatchToProps = dispatch => ({ 
+export const mapDispatchToProps = dispatch => ({ 
   addHousesToStore: houses => dispatch(addHousesToStore(houses))
 });
 export default connect(mapStateToProps, mapDispatchToProps)(App);
