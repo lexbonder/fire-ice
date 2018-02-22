@@ -8,16 +8,10 @@ jest.mock('../../apiCalls')
 describe('App', () => {
   let wrapper;
   let mockAddHousesToStore;
-  let mockHouses;
 
-  window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
-    json: () => Promise.resolve({
-      houses
-    })
-  }))
+  window.fetch = jest.fn().mockImplementation(() => houses)
 
   beforeEach(() => {
-    mockHouses = houses;
     mockAddHousesToStore = jest.fn()
     wrapper = shallow(<App addHousesToStore={mockAddHousesToStore} />)
   })
@@ -27,10 +21,9 @@ describe('App', () => {
   })
 
   describe('componentDidMount', () => {
-    it('should call addHousesToStore with a houses object', async () => {
-      wrapper.instance().props().addHousesToStore = jest.fn()
-      wrapper.instance().componentDidMount()
-      expect(wrapper.instance().props().addHousesToStore).toHaveBeenCalledWith(mockHouses)
+    it('should call addHousesToStore with a houses object', () => {
+      wrapper.instance().addHousesToStore = jest.fn()
+      expect(wrapper.instance().addHousesToStore).toHaveBeenCalled()
       // Cant get it.
     })
   })

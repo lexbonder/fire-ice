@@ -41,21 +41,38 @@ ShallowWrapper {
         <h1>
           House Corbray of Heart's Home
 </h1>,
-        <h3 />,
-        <h3>
-          Heart's Home
+        <h2 />,
+        <h2>
+          Seats
+</h2>,
+        Array [
+          <h3>
+            Heart's Home
 </h3>,
-        <h3>
-          Lord of Heart's Home
-          King of the Fingers (historical)
+        ],
+        <h2>
+          Titles
+</h2>,
+        Array [
+          <h3>
+            Lord of Heart's Home
 </h3>,
-        <h3>
+          <h3>
+            King of the Fingers (historical)
+</h3>,
+        ],
+        <h2>
           Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)
+</h2>,
+        <h2>
+          Ancestral Weapons
+</h2>,
+        Array [
+          <h3>
+            Lady Forlorn
 </h3>,
-        <h3>
-          Lady Forlorn
-</h3>,
-        <h3 />,
+        ],
+        <h2 />,
       ],
       "className": "Card",
     },
@@ -81,6 +98,28 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Seats",
+        },
+        "ref": null,
+        "rendered": "Seats",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Heart's Home",
+        },
+        "ref": null,
+        "rendered": "Heart's Home",
         "type": "h3",
       },
       Object {
@@ -88,31 +127,32 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "Heart's Home",
-          ],
+          "children": "Titles",
         },
         "ref": null,
-        "rendered": Array [
-          "Heart's Home",
-        ],
+        "rendered": "Titles",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lord of Heart's Home",
+        },
+        "ref": null,
+        "rendered": "Lord of Heart's Home",
         "type": "h3",
       },
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "1",
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "Lord of Heart's Home",
-            "King of the Fingers (historical)",
-          ],
+          "children": "King of the Fingers (historical)",
         },
         "ref": null,
-        "rendered": Array [
-          "Lord of Heart's Home",
-          "King of the Fingers (historical)",
-        ],
+        "rendered": "King of the Fingers (historical)",
         "type": "h3",
       },
       Object {
@@ -124,21 +164,28 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "Lady Forlorn",
-          ],
+          "children": "Ancestral Weapons",
         },
         "ref": null,
-        "rendered": Array [
-          "Lady Forlorn",
-        ],
+        "rendered": "Ancestral Weapons",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lady Forlorn",
+        },
+        "ref": null,
+        "rendered": "Lady Forlorn",
         "type": "h3",
       },
       Object {
@@ -150,7 +197,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "",
-        "type": "h3",
+        "type": "h2",
       },
     ],
     "type": "div",
@@ -165,21 +212,38 @@ ShallowWrapper {
           <h1>
             House Corbray of Heart's Home
 </h1>,
-          <h3 />,
-          <h3>
-            Heart's Home
+          <h2 />,
+          <h2>
+            Seats
+</h2>,
+          Array [
+            <h3>
+              Heart's Home
 </h3>,
-          <h3>
-            Lord of Heart's Home
-            King of the Fingers (historical)
+          ],
+          <h2>
+            Titles
+</h2>,
+          Array [
+            <h3>
+              Lord of Heart's Home
 </h3>,
-          <h3>
+            <h3>
+              King of the Fingers (historical)
+</h3>,
+          ],
+          <h2>
             Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)
+</h2>,
+          <h2>
+            Ancestral Weapons
+</h2>,
+          Array [
+            <h3>
+              Lady Forlorn
 </h3>,
-          <h3>
-            Lady Forlorn
-</h3>,
-          <h3 />,
+          ],
+          <h2 />,
         ],
         "className": "Card",
       },
@@ -205,6 +269,28 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Seats",
+          },
+          "ref": null,
+          "rendered": "Seats",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Heart's Home",
+          },
+          "ref": null,
+          "rendered": "Heart's Home",
           "type": "h3",
         },
         Object {
@@ -212,31 +298,32 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "Heart's Home",
-            ],
+            "children": "Titles",
           },
           "ref": null,
-          "rendered": Array [
-            "Heart's Home",
-          ],
+          "rendered": "Titles",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lord of Heart's Home",
+          },
+          "ref": null,
+          "rendered": "Lord of Heart's Home",
           "type": "h3",
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "1",
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "Lord of Heart's Home",
-              "King of the Fingers (historical)",
-            ],
+            "children": "King of the Fingers (historical)",
           },
           "ref": null,
-          "rendered": Array [
-            "Lord of Heart's Home",
-            "King of the Fingers (historical)",
-          ],
+          "rendered": "King of the Fingers (historical)",
           "type": "h3",
         },
         Object {
@@ -248,21 +335,28 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "Lady Forlorn",
-            ],
+            "children": "Ancestral Weapons",
           },
           "ref": null,
-          "rendered": Array [
-            "Lady Forlorn",
-          ],
+          "rendered": "Ancestral Weapons",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lady Forlorn",
+          },
+          "ref": null,
+          "rendered": "Lady Forlorn",
           "type": "h3",
         },
         Object {
@@ -274,7 +368,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "",
-          "type": "h3",
+          "type": "h2",
         },
       ],
       "type": "div",

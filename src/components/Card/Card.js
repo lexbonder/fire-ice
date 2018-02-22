@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 export const Card = ({houseInfo}) => {
   const {
     name,
@@ -12,15 +13,30 @@ export const Card = ({houseInfo}) => {
     words
   } = houseInfo;
 
+const seatsToRender = () => {
+  return seats.map( (seat, index) => <h3 key={index}>{seat}</h3>)
+}
+
+const titlesToRender = () => {
+  return titles.map( (title, index) => <h3 key={index}>{title}</h3>)
+}
+
+const weaponsToRender = () => {
+  return ancestralWeapons.map( (weapon, index) => <h3 key={index}>{weapon}</h3>)
+}
+
   return (
     <div className='Card'>
       <h1>{name}</h1>
-      <h3>{founded}</h3>
-      <h3>{seats}</h3>
-      <h3>{titles}</h3>
-      <h3>{coatOfArms}</h3>
-      <h3>{ancestralWeapons}</h3>
-      <h3>{words}</h3>
+      <h2>{founded}</h2>
+      <h2>Seats</h2>
+      {seatsToRender()}
+      <h2>Titles</h2>
+      {titlesToRender()}
+      <h2>{coatOfArms}</h2>
+      <h2>Ancestral Weapons</h2>
+      {weaponsToRender()} 
+      <h2>{words}</h2>
     </div>
   );
 };
