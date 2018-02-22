@@ -3,6 +3,8 @@ import { shallow } from 'enzyme';
 import { App } from './App';
 import { houses } from '../../mockData';
 
+jest.mock('../../apiCalls')
+
 describe('App', () => {
   let wrapper;
   let mockAddHousesToStore;
@@ -28,8 +30,8 @@ describe('App', () => {
     it('should call addHousesToStore with a houses object', async () => {
       wrapper.instance().mockAddHousesToStore = jest.fn()
       wrapper.instance().getHouseData = jest.fn().mockImplementation(()=> mockHouses)
-      const houses = await wrapper.instance().getHouseData()
-      expect(wrapper.instance().mockAddHousesToStore).toHaveBeenCalled()
+      wrapper.instance().componentDidMount();
+      expect(wrapper.instance().mockAddHousesToStore).toHaveBeenCalledWith(mockHouses)
     })
   })
 
