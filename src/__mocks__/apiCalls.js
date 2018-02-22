@@ -1,5 +1,5 @@
 export const getHouseData = jest.fn()
-  .mockImplementationOnce(() => ([
+  .mockImplementation(() => ([
       {
         url: 'https://www.anapioficeandfire.com/api/houses/81',
         name: 'House Corbray of Heart\'s Home',
