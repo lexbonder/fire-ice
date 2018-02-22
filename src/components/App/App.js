@@ -14,22 +14,12 @@ export class App extends Component {
     this.props.addHousesToStore(houses);
   }
 
-  // showCards = () => {
-  //   const { houses } = this.props;
-  //   if (!houses.length) {
-  //     return <img src={wolf} alt='wolf running' />
-  //   } else {
-  //     return <Container />
-  //   }
-  // }
-
   render() {
     return (
       <div className='App'>
         <div className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <h2>Welcome to Westeros</h2>
-          {/*<button onClick={this.handleClick}>Get Houses</button>*/}
         </div>
         <div className='Display-info'>
           <Container />
