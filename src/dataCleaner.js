@@ -8,8 +8,12 @@ export const houseCleaner = (rawHouses) => {
       titles,
       coatOfArms,
       ancestralWeapons,
-      words
+      words,
+      swornMembers
     } = house
+
+    const swornMemberIds = swornMembers.map(member => member.split('/')[5])
+
     return {
       url,
       name,
@@ -18,7 +22,8 @@ export const houseCleaner = (rawHouses) => {
       titles,
       coatOfArms,
       ancestralWeapons,
-      words
+      words,
+      swornMemberIds
     }
   })
 }

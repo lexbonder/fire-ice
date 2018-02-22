@@ -6,3 +6,12 @@ export const getHouseData = async () => {
     return 'Error'
   }
 };
+
+export const getSwornMember = async (id) => {
+  try {
+    const initialFetch = await fetch(`http://localhost:3001/api/v1/character/${id}`)
+    // DIDN'T FINISH THE API CALL. PRETTY CLOSE I THINK.
+  } catch(error) {
+    return 'Error'
+  }
+}
