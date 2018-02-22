@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    houseInfo={
+        Object {
+            "ancestralWeapons": Array [
+              "Lady Forlorn",
+            ],
+            "coatOfArms": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
+            "founded": "",
+            "name": "House Corbray of Heart's Home",
+            "seats": Array [
+              "Heart's Home",
+            ],
+            "titles": Array [
+              "Lord of Heart's Home",
+              "King of the Fingers (historical)",
+            ],
+            "url": "https://www.anapioficeandfire.com/api/houses/81",
+            "words": "",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          House Corbray of Heart's Home
+</h1>,
+        <h3 />,
+        <h3>
+          Heart's Home
+</h3>,
+        <h3>
+          Lord of Heart's Home
+          King of the Fingers (historical)
+</h3>,
+        <h3>
+          Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)
+</h3>,
+        <h3>
+          Lady Forlorn
+</h3>,
+        <h3 />,
+      ],
+      "className": "Card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "House Corbray of Heart's Home",
+        },
+        "ref": null,
+        "rendered": "House Corbray of Heart's Home",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Heart's Home",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Heart's Home",
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Lord of Heart's Home",
+            "King of the Fingers (historical)",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lord of Heart's Home",
+          "King of the Fingers (historical)",
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
+        },
+        "ref": null,
+        "rendered": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Lady Forlorn",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lady Forlorn",
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "h3",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            House Corbray of Heart's Home
+</h1>,
+          <h3 />,
+          <h3>
+            Heart's Home
+</h3>,
+          <h3>
+            Lord of Heart's Home
+            King of the Fingers (historical)
+</h3>,
+          <h3>
+            Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)
+</h3>,
+          <h3>
+            Lady Forlorn
+</h3>,
+          <h3 />,
+        ],
+        "className": "Card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "House Corbray of Heart's Home",
+          },
+          "ref": null,
+          "rendered": "House Corbray of Heart's Home",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Heart's Home",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Heart's Home",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Lord of Heart's Home",
+              "King of the Fingers (historical)",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Lord of Heart's Home",
+            "King of the Fingers (historical)",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
+          },
+          "ref": null,
+          "rendered": "Three black ravens in flight, holding three red hearts, on a white field(Argent, three ravens volant sable, each clutching in their claws a heart gules)",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Lady Forlorn",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Lady Forlorn",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "h3",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

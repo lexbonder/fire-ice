@@ -6,11 +6,13 @@ import { connect } from 'react-redux';
 import Container from '../Container/Container';
 import { addHousesToStore } from '../../actions';
 import { getHouseData } from '../../apiCalls';
+import { houseCleaner } from '../../dataCleaner';
 
 export class App extends Component {
 
   componentDidMount = async () => {
-    const houses = await getHouseData();
+    const rawHouses = await getHouseData();
+    const houses = houseCleaner(rawHouses);
     this.props.addHousesToStore(houses);
   }
 
@@ -36,20 +38,12 @@ App.propTypes = {
     shape({
       url: string,
       name: string,
-      region: string,
       coatOfArms: string,
       words: string,
       titles: arrayOf(string),
       seats: arrayOf(string),
-      currentLord: string,
-      heir: string,
-      overlord: string,
       founded: string,
-      founder: string,
-      diedOut: string,
-      ancestralWeapons: arrayOf(string),
-      cadetBranches: arrayOf(string),
-      swornMemebers: arrayOf(string)
+      ancestralWeapons: arrayOf(string)
     })
   ),
   addHousesToStore: func

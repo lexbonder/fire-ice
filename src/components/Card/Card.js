@@ -31,19 +31,11 @@ Card.propTypes = {
   houseInfo: shape({
     url: string,
     name: string,
-    region: string,
     coatOfArms: string,
     words: string,
     titles: arrayOf(string),
     seats: arrayOf(string),
-    currentLord: string,
-    heir: string,
-    overlord: string,
     founded: string,
-    founder: string,
-    diedOut: string,
-    ancestralWeapons: arrayOf(string),
-    cadetBranches: arrayOf(string),
-    swornMemebers: arrayOf(string)
+    ancestralWeapons: arrayOf(string)
   })
 };
