@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes, { shape, func, string } from 'prop-types';
+import PropTypes from 'prop-types';
 import logo from './logo.svg';
-import wolf from '../../wolf.gif'
 import './App.css';
 import { connect } from 'react-redux';
 import Container from '../Container/Container';
@@ -15,14 +14,14 @@ class App extends Component {
     this.props.addHousesToStore(houses);
   }
 
-  showCards = () => {
-    const { houses } = this.props;
-    if (!houses.length) {
-      return <img src={wolf} alt='wolf running' />
-    } else {
-      return <Container />
-    }
-  }
+  // showCards = () => {
+  //   const { houses } = this.props;
+  //   if (!houses.length) {
+  //     return <img src={wolf} alt='wolf running' />
+  //   } else {
+  //     return <Container />
+  //   }
+  // }
 
   render() {
     return (
@@ -30,19 +29,40 @@ class App extends Component {
         <div className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <h2>Welcome to Westeros</h2>
-          <button onClick={this.handleClick}>Get Houses</button>
+          {/*<button onClick={this.handleClick}>Get Houses</button>*/}
         </div>
         <div className='Display-info'>
-          {this.showCards()}
+          <Container />
         </div>
       </div>
     );
   }
 }
 
+const { arrayOf, shape, string, func } = PropTypes;
+
 App.propTypes = {
-  houses: shape({ fake: string }),
-  fakeAction: func.isRequired
+  houses: arrayOf(
+    shape({
+      url: string,
+      name: string,
+      region: string,
+      coatOfArms: string,
+      words: string,
+      titles: arrayOf(string),
+      seats: arrayOf(string),
+      currentLord: string,
+      heir: string,
+      overlord: string,
+      founded: string,
+      founder: string,
+      diedOut: string,
+      ancestralWeapons: arrayOf(string),
+      cadetBranches: arrayOf(string),
+      swornMemebers: arrayOf(string)
+    })
+  ),
+  addHousesToStore: func
 };
 
 const mapStateToProps = ({ houses }) => ({ houses });
